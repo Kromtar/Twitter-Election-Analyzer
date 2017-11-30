@@ -1,11 +1,9 @@
 from pymongo import MongoClient
-from itertools import tee
 from os.path import join, dirname
 from dotenv import load_dotenv
 import tweepy
 import pygal
 import os
-import sys
 
 IDS = {}
 #Lee fiche externo
